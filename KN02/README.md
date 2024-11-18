@@ -8,10 +8,10 @@
 
 ### Spezifikationen
 
-Diskgrösse: 8GB
-Betriebssystem: Ubuntu
-RAM: 1GB
-Anzahl CPUs: 1
+| Diskgrösse     | 8GB    |
+| Betriebssystem | Ubuntu |
+| RAM            | 1GB    |
+| Anzahl CPUs    | 1      |
 
 ## C) Zugriff mit SSH-Key (40%)
 
