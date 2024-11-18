@@ -8,8 +8,9 @@
 
 ### Spezifikationen
 
-| Diskgrösse     | 8GB    |
+|                |        |
 | :------------- | :----- |
+| Diskgrösse     | 8GB    |
 | Betriebssystem | Ubuntu |
 | RAM            | 1GB    |
 | Anzahl CPUs    | 1      |
