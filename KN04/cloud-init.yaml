@@ -1,0 +1,15 @@
+#cloud-config
+users: #Ist um benutzer zu erstellen
+  - name: ubuntu #Benutzername
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: users, admin #Gruppen des Users
+    home: /home/ubuntu #Home-Verzeichnis des Users
+    shell: /bin/bash #der Pfad zur shell
+    ssh_authorized_keys: #Public Key
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0WGP1EZykEtv5YGC9nMiPFW3U3DmZNzKFO5nEu6uozEHh4jLZzPNHSrfFTuQ2GnRDSt+XbOtTLdcj26+iPNiFoFha42aCIzYjt6V8Z+SQ9pzF4jPPzxwXfDdkEWylgoNnZ+4MG1lNFqa8aO7F62tX0Yj5khjC0Bs7Mb2cHLx1XZaxJV6qSaulDuBbLYe8QUZXkMc7wmob3PM0kflfolR3LE7LResIHWa4j4FL6r5cQmFlDU2BDPpKMFMGUfRSFiUtaWBNXFOWHQBC2+uKmuMPYP4vJC9sBgqMvPN/X2KyemqdMvdKXnCfrzadHuSSJYEzD64Cve5Zl9yVvY4AqyBD aws-key       
+ssh_pwauth: false #Deaktiviert die Verwendung von Passwörtern bei SSH
+disable_root: false #Man kann sich nicht mehr als root anmelden
+package_update: true #Macht ein update der Paketlisten
+packages: #Packages die installiert werden
+  - curl 
+  - wget 
