@@ -7,6 +7,7 @@ users: #Ist um benutzer zu erstellen
     shell: /bin/bash #der Pfad zur shell
     ssh_authorized_keys: #Public Key
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/TovgRxdl92XIsqF29sP787rKJSCxPSls/Ap7k43ylv8SO38yL/j74nif8qvUyw1Uj7UflDKJwXzq2+lVgudCZtqmGhc77hdZ2u9ZJ9eHuk8koHUvUMlAcjvXOVKc1vflrTQ6urRWxjQwgcpPrXtbPLbqt4qqPaZh1Cfn01esnC1mso+cCXh5G6w+ubdkWWMfftHo4PR5pKvsGEEUrJ3fXAqZx/qjMQ477c1URUSCvSnA7cdu2S4uVToj0sDxztXEs25tmgogSLkxwJ3AL47ZAVdVis4XqJ0OiUqaIrAd9tGyAWKI6K+o0aJUzig32ISePAW4TbVFCxsSTPUYlN4N aws-key
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCpYQGN6ZsQ+5UJzDz05HogRp0sTBfaore2SjtIpyIc0hyHRQMjw6zeG7+BHglRej/2nXKkRVvXfAzzYQoNxvh38ZcXaqp600UQ1T8zmlU700jvSBew9/UxyvGC9w0iClq/73tMX7k38dUEJTrNVhatHlZYdjbDxKp6mwIFiFpDQnyz3FKfc26gl+wF5DFCcIiRQyIS7iG5G+3drBWwt7FNYxAgcUHZCCx9cyOJw8VqOB0JxvztBXbOS2PJINAaa4jpGIP4n+iLhGY0q87fizLFEz9A8MX3hQVqLXOH1XDtQybv+J4qOOYSAr58ASEkpYxZyJyRxnPfXJyCPs0keIvlkn02 aws-key
 ssh_pwauth: false #Deaktiviert die Verwendung von Passwörtern bei SSH
 disable_root: false #Man kann sich nicht mehr als root anmelden
 package_update: true #Macht ein update der Paketlisten
