@@ -6,7 +6,7 @@ users: #Ist um benutzer zu erstellen
     home: /home/ubuntu #Home-Verzeichnis des Users
     shell: /bin/bash #der Pfad zur shell
     ssh_authorized_keys: #Public Key
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0WGP1EZykEtv5YGC9nMiPFW3U3DmZNzKFO5nEu6uozEHh4jLZzPNHSrfFTuQ2GnRDSt+XbOtTLdcj26+iPNiFoFha42aCIzYjt6V8Z+SQ9pzF4jPPzxwXfDdkEWylgoNnZ+4MG1lNFqa8aO7F62tX0Yj5khjC0Bs7Mb2cHLx1XZaxJV6qSaulDuBbLYe8QUZXkMc7wmob3PM0kflfolR3LE7LResIHWa4j4FL6r5cQmFlDU2BDPpKMFMGUfRSFiUtaWBNXFOWHQBC2+uKmuMPYP4vJC9sBgqMvPN/X2KyemqdMvdKXnCfrzadHuSSJYEzD64Cve5Zl9yVvY4AqyBD aws-key       
+      - ssh-rsa MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv06L4EcXZfdlyLKhdvbD+/O6yiUgsT0pbPwKe5ON8pb/Ejt/Mi/4++J4n/Kr1MsNVI+1H5QyicF86tvpVYLnQmbaphoXO+4XWdrvWSfXh7pPJKB1L1DJQHI71zlSnNb35a00Orq0VsY0MIHKT617Wzy26reKqj2mYdQn59NXrJwtZrKPnAl4eRusPrm3ZFljH37R6OD0eaSr7BhBFKyd31wKmcf6ozEOO+3NVEVEgr0pwO3HbtkuLlU6I9LA8c7VxLNubZoKIEi5McCdwC+O2QFXVYrOF6idDolKmiKwHfbRsgFiiOivqNGiVM4oN9iEnjwFuE21RQsbEkz1GJTeDQIDAQAB aws-key       
 ssh_pwauth: false #Deaktiviert die Verwendung von Passwörtern bei SSH
 disable_root: false #Man kann sich nicht mehr als root anmelden
 package_update: true #Macht ein update der Paketlisten
