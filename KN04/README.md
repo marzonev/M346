@@ -16,3 +16,20 @@
 
 [Hier](Template.yaml) ist das Template.
 
+## D) Installation automatisieren (70%)
+
+### Datenbank
+
+[Hier](cloud-init-db.yaml) ist die Cloud-init Datei
+
+### Webserver
+
+[Hier](cloud-init-web.yaml) ist die Cloud-init
+
+![indexhtml](media/indexhtml.png)
+
+![dbphp](media/dbphp.png)
+
+![infophp](media/infophp.png)
+
+![adminer](media/adminer.png)
