@@ -15,11 +15,11 @@ packages: #Packages die installiert werden
   - curl 
   - wget 
 runcmd:
-  - apt-get update
-  - sudo apt install apache2
-  - sudo apt install php
-  - sudo apt install libapache2-mod-php
-  - sudo apt install php-mysqli
+  - apt-get update -y
+  - sudo apt install apache2 -y
+  - sudo apt install php -y
+  - sudo apt install libapache2-mod-php -y
+  - sudo apt install php-mysqli -y
   - sudo a2enconf adminer
   - sudo systemctl restart apache2
 write_files:

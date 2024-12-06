@@ -15,8 +15,8 @@ packages: #Packages die installiert werden
   - curl 
   - wget 
 runcmd:
-  - apt-get update
-  - apt install mariadb-server
+  - apt-get update -y
+  - apt install mariadb-server -y
   - mysql -sfu root -e "GRANT ALL ON *.* TO 'admin'@'%' IDENTIFIED BY 'Nevio1234' WITH GRANT OPTION;"
   - sed -i 's/127.0.0.1/0.0.0.0/g' /etc/mysql/mariadb.conf.d/50-server.cnf
   - systemctl restart mariadb.service
