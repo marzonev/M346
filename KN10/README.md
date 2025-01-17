@@ -38,13 +38,11 @@
 
 ![webserver-heroku](media/webserver-heroku.png)
 
+![Unit-price](media/Unit-price.png)
+
 ### DB-Server
 
 ![dbserver-heroku](media/dbserver-heroku.png)
-
-### Unit Preis
-
-![Unit-price](media/Unit-price.png)
 
 ### Gesamtpreis Heroku
 
