@@ -12,11 +12,43 @@
 
 ## A) Kostenrechnung IAAS - Rehosting (60%)
 
+### AWS
+
+[Hier](media/Kostenberechnung-AWS.pdf) ist die Datei der Kostenberechnung
+
+![Kostenberechnung-AWS](media/Kostenberechnung-AWS.png)
+
+#### Gesamtpreis AWS
+
+75.26CHF/Monat
+
+### Azure
+
 [Hier](<media/ExportedEstimate (5).xlsx>) ist die Datei der Kostenberechnung
 
 ![Kostenberechnung-Azure](media/Kostenberechnung-Azure.png)
 
+#### Gesamtpreis Azure
+
+85.45CHF/Monat
+
 ## B) Kostenrechnung PAAS - Replattforming (20%)
+
+### Web-Server
+
+![webserver-heroku](media/webserver-heroku.png)
+
+### DB-Server
+
+![dbserver-heroku](media/dbserver-heroku.png)
+
+### Unit Preis
+
+![Unit-price](media/Unit-price.png)
+
+### Gesamtpreis Heroku
+
+277CHF/Monat
 
 ## C) Kostenrechnung SAAS - Repurchasing (10%)
 
