@@ -54,3 +54,8 @@ Dann unter "Actions > Instance Settings > Change Instance Type" kann man den neu
 
 ## C) Horizontale Skalierung (20%)
 
+Um die Webserver mit der URL ```app.tbz-m346.ch``` zu erreichen, müsste man einen CNAME RECORD erstellen und dort die bestehende URL von aws einfügen.
+
+Hier sieht man noch, dass der Load Balancer funktioniert.
+
+![Loadbalancer-working](media/Loadbalancer-working.png)
