@@ -16,6 +16,8 @@ Ein Reverse Proxy liegt vor mehreren Servern. Er nimmt die Pakete an inspektiert
 
 Man sollte die Benutzerdaten für das Login nicht im Klartext ins File einfügen.
 
+Unnötig dass das Proxy File zuerst im Home erstellt wird und danach kopiert wird.
+
 ## B) Vertikale Skalierung  (10%)
 
 ### Vorher
