@@ -42,4 +42,4 @@ Load-Balancer und Target Group wurden auch erstellt.
 
 ![auto-scaling-created](media/auto-scaling-created.png)
 
-![.](media/easteregg.png)
+[.](media/easteregg.png)
