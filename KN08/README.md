@@ -2,24 +2,24 @@
 
 ## A) Backup-Skript (70%)
 
-![instancetag](media/instancetag.png)
-
 Die Tags der Instance
 
-![snapshotlist](media/snapshotlist.png)
+![instancetag](media/instancetag.png)
 
 Hier ist die Liste der Snapshots
 
-![Snapshottag](media/Snapshottag.png)
+![snapshotlist](media/snapshotlist.png)
 
 Hier ist der Tag des Snapshots
 
-![Snapshotclean](media/Snapshotclean.png)
+![Snapshottag](media/Snapshottag.png)
 
 Hier sind die Snapshots nach dem Cleanup.
 
+![Snapshotclean](media/Snapshotclean.png)
+
 ## B) Cron Job
 
-![cronjob](media/cronjob.png)
-
 Hier sind die zwei cron jobs
+
+![cronjob](media/cronjob.png)
